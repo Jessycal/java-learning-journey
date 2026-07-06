@@ -1,5 +1,6 @@
 //a program to find the max, min, avg of three values building the method from scratch
-import java.util.Scanner;
+import java.util.Scanner; 
+import java.util.Random;
 public class MaxMinAvgCustom {
 	public static void main(String[] args){
 		Scanner input = new Scanner(System.in);
@@ -16,6 +17,10 @@ public class MaxMinAvgCustom {
 		System.out.println("The Maximum number is: " + result);
 		System.out.println("The Minimum number is: " + min);
 		System.out.println("The average number is: " + avg);
+
+		//deterministic random number generator
+		Random rand = new Random(42);   // seed = 42
+       System.out.println(rand.nextInt(100));  // always produces the SAME sequence
 	}
 	public static double maximum(double x, double y, double z, double a) {
 		double maxFinder = x;
