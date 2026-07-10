@@ -44,12 +44,12 @@ public class DiceRollFrequency{
 		}
 		System.out.println("Face\tFrequency"); // output headers
         
-        System.out.println("1: " +frequency1);
-        System.out.println("2: " + frequency2);
-        System.out.println("3: " + frequency3);
-        System.out.println("4: " + frequency4);
-        System.out.println("5: " + frequency5);
-        System.out.println("6: " + frequency6);
+        System.out.println("1: \t\t" +frequency1);
+        System.out.println("2: \t\t" + frequency2);
+        System.out.println("3: \t\t" + frequency3);
+        System.out.println("4: \t\t" + frequency4);
+        System.out.println("5: \t\t" + frequency5);
+        System.out.println("6: \t\t" + frequency6);
 
 
 
