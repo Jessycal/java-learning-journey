@@ -1,4 +1,7 @@
-
+//Multiples.java
+//A program to check if two numbers A and B, B is a multiple of A
+//return TRUE if it is
+//return False if it is not
 import java.util.Scanner;
 public class Multiples {
 	public static void main(String[] args) {
