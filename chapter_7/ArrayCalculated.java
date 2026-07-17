@@ -1,12 +1,12 @@
-/*this program calculates the EVEN NUMBER values to be placed in the elements of an array
--> Why two separate loops?
+/*this program calculates the values to be placed in the elements of an array
+-> Why two separate loops for each array object?
 First loop: Build the data (calculate).
 Second loop: Display the data.*/
 
 
 public class ArrayCalculated {
 	public static void main(String[] args) {
-		final int FINAL_ARRAY = 10; //a constant
+		final int FINAL_ARRAY = 10; //a constant variable
 
 		//creating objects
 		int []arrayEvenNumber = new int [FINAL_ARRAY];
@@ -16,6 +16,8 @@ public class ArrayCalculated {
 		//building the value that will be entered into the element calculation{EVEN NUMBERS}
 		for (int counter = 0; counter < arrayEvenNumber.length; counter++) {
 			arrayEvenNumber[counter] = 2 + 2 * counter;
+
+			
 		}
 
             System.out.println("***********EVEN NUMBERS ARRAY VALUE CALCULATION DISPLAY******");
