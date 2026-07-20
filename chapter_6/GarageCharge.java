@@ -8,6 +8,7 @@
 // total of the day's receipts once all customers have been entered.
 // Uses the method calculateCharges to compute each customer's fee.
 import java.util.Scanner;
+import java.util.InputMismatchException;
 public class GarageCharge {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -19,13 +20,27 @@ public class GarageCharge {
 		System.out.println("\nOn UNIX/Linux/macOS type <Ctrl> d then press Enter");
 		System.out.println("\n Windows type <Ctrl> z then press Enter");
 
+
 		//creating the setinel value to indicate end of hours entry
-		while (input.hasNext()) {
-			System.out.println("##########################################################");
+		while (input.hasNext()) { 
+
+            System.out.println("##########################################################");
+
 			System.out.println("Enter hours parked in the range of 1 -23");
-			double hoursParked = input.nextDouble(); //read hours
+
+			double hoursParked;
+			try {
+			 hoursParked = input.nextDouble(); //read hours
+		}
+		catch (InputMismatchException e) {
+			System.out.println("invalid input, please enter a number");
+			input.next(); //discard the invalid input
+			continue; //skip the rest of this loop iteration
+		}
 			 hourCounter = hourCounter + 1;
 			 double customerCharge = calculateCharges(hoursParked);
+			 
+			 
 
 			 System.out.println("@@@@@@@@Amount@@@@@@");
 		     System.out.println("Your hours parked is: " + hoursParked);

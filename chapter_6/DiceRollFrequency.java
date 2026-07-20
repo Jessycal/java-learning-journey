@@ -2,6 +2,7 @@
 //count and display the frequency with which each number from 1 to 6 appeared
 //this program is a secure Random non deterministic
 // shifted and scaled random integer
+// Updated version using array counters: /home/chichi/Documents/java_projects/chapter_7/RollDiceModified.java
 
 import java.security.SecureRandom;
 public class DiceRollFrequency{

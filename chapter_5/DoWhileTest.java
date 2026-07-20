@@ -10,7 +10,7 @@ public class DoWhileTest {
 			counter = counter + 1;
 
 		}
-		while (counter <= 10);
+		while (counter <= 20);
 		System.out.println();
 
 	}
