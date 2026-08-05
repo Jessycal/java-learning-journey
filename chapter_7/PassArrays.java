@@ -1,6 +1,6 @@
 //this program demonstrates pass by value and pass by reference
 //method main calls methods modifyArrays(pass by reference), it modifies the values in main
-//method main also calls method modifyElement(pass by reference), it copies the values in main and doesnt ovveride it
+//method main also calls method modifyElement(pass by value), it copies the values in main and doesnt ovveride it
 
 public class PassArrays {
 	public static void main(String[] args) {

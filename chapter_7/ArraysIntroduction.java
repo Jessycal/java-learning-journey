@@ -3,7 +3,7 @@ public class ArraysIntroduction {
 		int [] numbers = new int [10];
 		numbers [0] = 5;
 
-		for (int counter = 0; counter > numbers.length; counter++) {
+		for (int counter = 0; counter < numbers.length; counter++) {
 			System.out.println("Numbers [" + counter + "] = " + numbers[counter]);
 		}
 	}

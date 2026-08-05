@@ -1,12 +1,10 @@
 //this program displays the frequency of grades in a class in a barchart
-// the grade range are 0-9; 10-19; 20-29; 30-39; 40-49; 50-59; 60-69; 70-79; 80-89; 90-99; 100-109
+// the grade range are 0-9; 10-19; 20-29; 30-39; 40-49; 50-59; 60-69; 70-79; 80-89; 90-99; 100
 /*So instead of storing the grades themselves, the program stores the counts in an array with 11 elements, where:
 
     array[0] = number of grades in the 0–9 range → 0
 
     array[1] = number of grades in the 10–19 range → 0
-
-    …
 
     array[6] = number of grades in the 60–69 range → 1
 
@@ -23,7 +21,7 @@
     		//storing the grade in an array
     		int [] gradesArray = {3,9,4,6,8,9,1, 2,  4, 2, 1};
 
-    		System.out.println("***************Grade Barchart Display**************");
+    		System.out.println("*************** Barchart Grade Display**************");
     		for (int counter = 0; counter < gradesArray.length; counter++) {
     			if (counter==10) {
     				System.out.printf("%5d", 100);

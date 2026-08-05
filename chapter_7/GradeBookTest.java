@@ -1,7 +1,7 @@
 public class GradeBookTest {
 	public static void main(String[] args) {
 		
-		int [] scores = { 10, 20, 30, 40, 50,65, 90, 100};
+		int [] scores = { 10, 20, 30, 40, 50,65, 90, 100, 80, 98, 45};
 
 		GradeBook gradeBookVersion1 = new GradeBook("CIT 108", scores);
 		System.out.println("Result checking portal ");

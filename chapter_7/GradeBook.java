@@ -16,7 +16,8 @@
 │ + outputGrades() : void                │
 │ + getMinimum() : int                   │
 │ + getMaximum() : int                   │
-│ + getAverage() : double                │
+│ + getAverage() : double 
+  + resultLabel() : void               │
 │ + outputBarChart() : void              │
 └────────────────────────────────────────┘ */
 public class GradeBook {

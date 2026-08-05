@@ -10,6 +10,6 @@ public class EnhancedFor {
 		for (int number: arrayValues) {
 			total += number;
 		}
-		System.out.println();
+		System.out.println(total);
 	}
 }
