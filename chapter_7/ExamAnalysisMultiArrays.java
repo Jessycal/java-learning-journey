@@ -20,6 +20,7 @@ public class ExamAnalysisMultiArrays {
 
     // ---------- Main report method ----------
     public void displayGradeReport() {
+        System.out.println("Course Name: " + getCourseName());
         System.out.println("Grade Maximum is: " + getMaximum());
         System.out.println("Grade Minimum is: " + getMinimum());
         System.out.println("Class average is: " + getAverage()); 
