@@ -19,7 +19,7 @@ public  class ArrayListDemo {
 
 		for (String value: name) {
 			if (value.length() < 5) {
-				System.out.println("Items with names longer than 5: " + value); //print names longer than 5 characters
+				System.out.println("Items with names shorter than 5: " + value); //print names shorter than 5 characters
 			}
 		}
 
